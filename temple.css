@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-one{
+    background-color: bisque;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.temple {
+    
+    height:fit-content;
+    background-color:bisque;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.temple h1{
+    font-weight: normal;
+    font-size: larger;
+}
+.amararama img{
+    width: 100%;
+    height: 500px;
+}
+.ksheera img,.Draksharamam img{
+width: 60%;
+height: 500px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-one h1{
+    border: 2px solid black;    
+}
+.imp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+.imp-one{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    
+   }
+ul {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+  }
+  .nav {
+    margin: auto;
+    color: white;
+    background-color: rgb(204,108,92);
+    text-align: center;
+    
+}
+  .nav a{
+    text-decoration: none;
+    color: rgb(249,233,222);
+    font-size: 30px;
+    margin-right: 65px;
+}
+.nav a:hover{
+   color: beige;
+   background-color: rgb(236, 69, 72);
+   box-shadow:rgb(236, 69, 72) 0px 5px 15px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 17vh;
+    margin-top: 0;
+    color: white;
+    background-color:rgb(62,81,114) ;
+    border: 2px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.one{width: 30%;}
+.picture{
+    width: 100%;
+}
+.temple img {
+    height: 100%;
+}
+a:hover{
+    border: 2px solid black;
+    background-color: rgb(228, 214, 214);
+    color: black;
+}
+footer{
+    text-align: right;
+    background-color: tomato;
+    color: whitesmoke;
+    padding-right: 50px;
+}

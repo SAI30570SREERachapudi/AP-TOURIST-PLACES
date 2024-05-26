@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 .main-one{
-    background-color: bisque;
+    background-color: rgb(218, 214, 214);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
    
 }
 .temple {
-    
+    padding: 15px;
     height:fit-content;
-    background-color:bisque;
+    background-color:rgb(218, 214, 214);
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -20,6 +20,9 @@
     text-align: left;
     font-size:20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.temple img{
+    margin-right: 10px;
 }
 .temple h1{
     font-weight: normal;
@@ -37,11 +40,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2px;
+    
 }
 .main-one h1{
-    border: 2px solid black;    
+    border: 2px solid black;
+    font-size: 35px;    
 }
 .imp{
     display: flex;
@@ -61,28 +65,40 @@ body{
     position: fixed;
     
    }
+   .kanipakam{
+    top: 150px;
+   }
 ul {
     list-style: none;
     text-align: center;
     margin: auto;
   }
+  .main{
+    position: fixed;
+    width: 100%;
+  }
   .nav {
     margin: auto;
     color: white;
-    background-color: rgb(204,108,92);
+    background-color: rgba(4,3,60,100);
     text-align: center;
+    position: fixed;
+    width: 100%;
     
 }
   .nav a{
     text-decoration: none;
     color: rgb(249,233,222);
+    background-color: rgba(4,3,60,100);
     font-size: 30px;
     margin-right: 65px;
 }
 .nav a:hover{
    color: beige;
-   background-color: rgb(236, 69, 72);
-   box-shadow:rgb(236, 69, 72) 0px 5px 15px;
+   background: rgb(9,9,121);
+   background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
+      box-shadow: rgb(9,9,121);
+      background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
 }
 .heading{
     display: flex;
@@ -91,7 +107,7 @@ ul {
     height: 17vh;
     margin-top: 0;
     color: white;
-    background-color:rgb(62,81,114) ;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%,  rgb(12, 51, 76) 96.1%);
     border: 2px solid white;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -103,13 +119,15 @@ ul {
     height: 100%;
 }
 a:hover{
-    border: 2px solid black;
+   
     background-color: rgb(228, 214, 214);
     color: black;
 }
-footer{
-    text-align: right;
-    background-color: tomato;
-    color: whitesmoke;
-    padding-right: 50px;
+.foot{
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgb(218, 214, 214);
+    font-weight: normal;
+    font-size: 20px;
 }
+

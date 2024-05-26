@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 h1{
-    background-color: rgb(62,81,114);
+    
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
@@ -13,7 +13,7 @@ h1{
 .nav {
     margin: auto;
     color: white;
-    background-color: rgb(204,108,92);
+    background-color: rgba(4,3,60,100);
     text-align: center;
 }
 .nav a{
@@ -23,23 +23,26 @@ h1{
     margin-right: 65px;
 }
 .nav a:hover{
-   color: beige;
-    background-color: rgb(225, 49, 81);
-    box-shadow:rgb(225, 49, 81) ;
-}
+    color: beige;
+    background: rgb(9,9,121);
+    background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
+       box-shadow: rgb(9,9,121);
+       background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
+ }
 .picture{
     background-image: url(back1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .heading{
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 17vh;
-    background-color:rgb(62,81,114) ;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%,  rgb(12, 51, 76) 96.1%);
     border: 2px solid white;
 }
 .one{

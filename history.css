@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .main{
-    background-color: bisque;
+    background-color:rgb(218, 214, 214); background-color: bisque;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     position: fixed;
@@ -12,22 +12,38 @@
     }
 .place {
     height:fit-content;
-    background-color:bisque;
+    background-color:rgb(218, 214, 214);
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
     font-size:20px;
+    padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.place img{
+    margin-right: 10px;
+    width: 80%;
+}
+.place h1{
+    font-weight: normal;
+    font-size: larger;
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter
 }
+.place h1{
+    border: 2px solid black;    
+}
+.one{
+    width:30%
+}
+
 .imp{
     display: flex;
     flex-direction: column;
@@ -54,22 +70,22 @@ ul {
   .nav {
     margin: auto;
     color: white;
-    background-color: rgb(204,108,92);
+    background-color: rgba(4,3,60,100);
     text-align: center;
-}
-.one{
-width: 30%;
 }
 .nav a{
     text-decoration: none;
+    background-color: rgba(4,3,60,100);
     color: rgb(249,233,222);
     font-size: 30px;
     margin-right: 65px;
 }
 .nav a:hover{
    color: beige;
-    background-color: rgb(236, 69, 72);
-    box-shadow:rgb(236, 69, 72) 0px 5px 15px;
+   background: rgb(9,9,121);
+   background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
+      box-shadow: rgb(9,9,121);
+      background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
 }
 .heading{
     display: flex;
@@ -78,7 +94,8 @@ width: 30%;
     height: 17vh;
     margin-top: 0;
     color: white;
-    background-color:rgb(62,81,114) ;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%,  rgb(12, 51, 76) 96.1%);
+    border: 2px solid white;
     border: 2px solid white;
 }
 h1{
@@ -86,7 +103,7 @@ h1{
 }
 .margin h1{
     text-align: center;
-    background-color: bisque;
+    background-color:rgb(218, 214, 214);
 }
 .margin{
     margin-top: 150px;
@@ -96,11 +113,10 @@ h1{
     margin-top: 0;
     height: fit-content;
  }
- footer{
-    text-align: right;
-    background-color: tomato;
-    color: whitesmoke;
-    padding-right: 50px;
+ .foot{
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgb(218, 214, 214);
+    font-weight: normal;
+    font-size: 20px;
 }
-
- 

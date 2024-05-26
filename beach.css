@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 .main-one{
-    background-color: bisque;
+    background-color:rgb(218, 214, 214);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 150px;
 }
 .beach {
-    
     height:fit-content;
-    
+    padding: 15px;
     border: 2px solid black;
     display: flex;
     align-items: center;
@@ -29,12 +28,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
     font-weight: lighter
 }
 .beach h1{
     border: 2px solid black;    
+}
+.beach img{
+    margin-right:10px ;
 }
 .imp{
     display: flex;
@@ -48,18 +49,20 @@ body{
     height: fit-content;
     width: 100%;
     text-align: center;
-    background-color:teal;
+    background-color: rgb(65, 58, 143);
     color: white;
     font-family: 'Times New Roman', Times, serif;
- }
- .main{
-    position: fixed;
-    width: 100%;
- }
-ul {    
+    }
+    .main{
+        position: fixed;
+        width: 100%;
+    }
+
+.beach ul{    
     list-style-type: disc;
     text-align: left;
     margin: auto;
+    margin-left: 25px;
   }
   .heading{
     display: flex;
@@ -67,38 +70,38 @@ ul {
     align-items: center;
     height: 17vh;
     color: white;
-    background-color:rgb(62,81,114) ;
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(32, 7, 80) 20.2%,  rgb(12, 51, 76) 96.1%);
     border: 2px solid white;
     font-family: 'Times New Roman', Times, serif;
 }
 .one{
     width:30%
 }
-  .nav {
+.nav {
     margin: auto;
     color: white;
-    background-color: rgb(204,108,92);
+    background-color: rgba(4,3,60,100);
     text-align: center;
+    
 }
-.nav a{
+  .nav a{
     text-decoration: none;
     color: rgb(249,233,222);
+
     font-size: 30px;
-    margin-right: 30px;
-    margin-left: 90px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-right: 65px;
 }
 .nav a:hover{
    color: beige;
-    background-color: rgb(62,81,114);
-    border: 2px solid rgb(62,81,114);
-    border-radius: 5px;
-    box-shadow:rgb(62,81,114) 0px 5px 15px; ;
+   background: rgb(9,9,121);
+   background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
+      box-shadow: rgb(9,9,121);
+      background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(4,3,60,1) 0%, rgba(0,212,255,1) 55%, rgba(2,0,36,1) 100%);
 }
-footer{
-    text-align: right;
-    background-color: tomato;
-    color: whitesmoke;
-    padding-right: 50px;
+ .foot{
+    margin-top: 10px;
+    text-align: center;
+    background-color:rgb(218, 214, 214);
+    font-weight: normal;
+    font-size: 20px;
 }
-
